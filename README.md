@@ -14,6 +14,17 @@ Das x ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe refer
    ```bash
 .gitlab-ci.yaml
    ```
+**Aufgabe 1 - Eine einfache Deployment-Pipeline**
+
+Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei .gitlab-ci1.yaml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yaml (siehe Hinweise oben).  
+
+Comitten Sie die Änderungen und starten Sie die Pipeline.  
+
+Schauen Sie sich die grafische Darstellung der Pipeline sowie ihren Konsolen-Output an.  
+
+Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
+
+Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
 
 **Aufgabe 0 - Aufwärmübung mit der Kommandozeile**
 
