@@ -1,0 +1,25 @@
+stages:
+    - generate
+    - consume
+
+job1:
+    stage: generate
+    script:
+        - mkdir build
+        - echo "Hello I am job 1" > build/job1-result.txt
+    artifacts:
+        paths:
+        - build/
+
+
+job2:
+    stage: generate
+    script:
+        - mkdir build
+        - echo "Hello I am job 2" > build/job2-result.txt
+
+job3:
+    stage: consume
+    script:
+        - sleep 5
+        - echo "Hello I am job 3"
