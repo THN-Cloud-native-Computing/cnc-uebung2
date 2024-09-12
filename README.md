@@ -25,6 +25,10 @@ Comitten Sie die Änderungen und starten Sie die Pipeline.
 
 Schauen Sie sich die grafische Darstellung der Pipeline sowie ihren Konsolen-Output an.  
 
+Die Pipeline sollte so aussehen:  
+
+![aufgabe1pipeline.png](aufgabe1pipeline.png)
+
 Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
 
 Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
