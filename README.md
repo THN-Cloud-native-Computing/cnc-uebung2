@@ -2,18 +2,21 @@
 
 In dieser Übung verwenden wir GitLab um Deployment Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
 
-Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden. Wie man Projekte in GitLab anlegt, wird in der Vorlesung noch erklärt.
+Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden. Wie man Projekte in GitLab anlegt, wird in der Vorlesung noch erklärt.  
+
+Zunächst einmal können Sie das Repository zu Übung 2 einmal über git klonen.  
 
 In diesem Repository finden sie Konfigurationsdateien in YAML, die nach folgendem Schema aufgebaut sind:
 
    ```bash
-.gitlab-cix.yaml
+.gitlab-cix.yml
    ```
 Das x ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt nutzen zu können, müssen Sie die Ziffer aus dem Dateinamen entfernen. Alle Projekte müssen damit eine Konfigurationsdatei haben, die folgenden Namen hat:
 
    ```bash
-.gitlab-ci.yaml
+.gitlab-ci.yml
    ```
+
 **Aufgabe 1 - Eine einfache Deployment-Pipeline**
 
 Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei .gitlab-ci1.yaml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yaml (siehe Hinweise oben).  
