@@ -41,7 +41,7 @@ b) Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
 
 **Aufgabe 3 - Deployment-Pipeline als Directed Acyclic Graph (DAG)**
 
-Ändern Sie die Pipeline aus Aufgabe 1 so, dass job3 bereits dann starten kann, wenn job1 beendet wurde, aber noch nicht alle Jobs der build-Stage.
+Ändern Sie die Pipeline aus Aufgabe 1 so, dass job3 bereits dann starten kann, wenn job1 beendet wurde (unabhängig von job2).
 
 a) Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
 
