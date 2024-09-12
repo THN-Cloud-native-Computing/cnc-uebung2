@@ -13,7 +13,7 @@ In diesem Repository finden sie Konfigurationsdateien in YAML, die nach folgende
    ```bash
 aufgabe_n.yml
    ```
-Das n ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt/Repository nutzen zu können, müssen Sie folgendermaßen umbenennen:
+Das n ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt/Repository nutzen zu können, müssen Sie sie folgendermaßen umbenennen:
 
    ```bash
 .gitlab-ci.yml
@@ -21,7 +21,7 @@ Das n ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe refer
 
 **Aufgabe 1 - Eine einfache Deployment-Pipeline**
 
-Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei .gitlab-ci1.yml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yml (siehe Hinweise oben).  
+Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei aufgabe_1.yml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yml (siehe Hinweise oben).  
 
 Comitten Sie die Änderungen und starten Sie die Pipeline.  
 
