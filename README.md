@@ -29,9 +29,9 @@ Die Pipeline sollte so aussehen:
 
 ![aufgabe1pipeline.png](aufgabe1pipeline.png)
 
-Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
+a) Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
 
-Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
+b) Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
 
 **Aufgabe 0 - Aufwärmübung mit der Kommandozeile**
 
