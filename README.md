@@ -11,9 +11,9 @@ Zunächst einmal können Sie das Repository zu Übung 2 über git klonen.
 In diesem Repository finden sie Konfigurationsdateien in YAML, die nach folgendem Schema aufgebaut sind:
 
    ```bash
-gitlab-cix.yml
+aufgabe_n.yml
    ```
-Das x ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt nutzen zu können, müssen Sie die Ziffer aus dem Dateinamen entfernen. Zusätzlich müssen Sie am Anfang einen Punkt einfügen. Alle Projekte müssen damit eine Konfigurationsdatei haben, die folgenden Namen hat:
+Das n ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt/Repository nutzen zu können, müssen Sie folgendermaßen umbenennen:
 
    ```bash
 .gitlab-ci.yml
