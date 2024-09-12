@@ -4,7 +4,7 @@ In dieser Übung verwenden wir GitLab um Deployment Pipelines zu entwickeln. Die
 
 Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden. Wie man Projekte in GitLab anlegt, wird in der Vorlesung noch erklärt.  
 
-Zunächst einmal können Sie das Repository zu Übung 2 einmal über git klonen.  
+Zunächst einmal können Sie das Repository zu Übung 2 über git klonen.  
 
 In diesem Repository finden sie Konfigurationsdateien in YAML, die nach folgendem Schema aufgebaut sind:
 
