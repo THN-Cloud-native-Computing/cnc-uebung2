@@ -11,7 +11,7 @@ In diesem Repository finden sie Konfigurationsdateien in YAML, die nach folgende
    ```bash
 gitlab-cix.yml
    ```
-Das x ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt nutzen zu können, müssen Sie die Ziffer aus dem Dateinamen entfernen. Alle Projekte müssen damit eine Konfigurationsdatei haben, die folgenden Namen hat:
+Das x ist jeweils eine Ziffer (1,2,3, ...), welche die zugehörige Aufgabe referenziert. Um die Datei in dem jeweiligen Projekt nutzen zu können, müssen Sie die Ziffer aus dem Dateinamen entfernen. Zusätzlich müssen Sie am Anfang einen Punkt einfügen. Alle Projekte müssen damit eine Konfigurationsdatei haben, die folgenden Namen hat:
 
    ```bash
 .gitlab-ci.yml
