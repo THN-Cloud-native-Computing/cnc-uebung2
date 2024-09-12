@@ -39,6 +39,14 @@ b) Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
 
 Ändern Sie job3 so, dass dieser fehlschlägt und somit die Pipeline abgebrochen wird.
 
+**Aufgabe 3 - Deployment-Pipeline als Directed Acyclic Graph (DAG)**
+
+Ändern Sie die Pipeline aus Aufgabe 1 so, dass job3 bereits dann starten kann, wenn job1 beendet wurde, aber noch nicht alle Jobs der build-Stage.
+
+a) Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
+
+b) Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
+
 **Aufgabe 0 - Aufwärmübung mit der Kommandozeile**
 
 Im cloud-nativen Umfeld arbeitet man häufig mit der Kommandozeile. Deshalb machen wir eine kurze Aufwärmübung dazu. Erledigen Sie folgende Aufgaben ausschließlich über die Kommandozeile:
