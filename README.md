@@ -53,7 +53,7 @@ Artefakte sind in Deployment-Pipelines Job-Erzeugnisse, die entlang einer Stage-
 
 Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an. Fügen Sie dem Repository den Code aus der Datei aufgabe_4.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).
 
-a) Führen Sie die Pipeline aus und sehen Sie danach unter "Artifacts" nach, welcher Dateien die Pipeline erzeugt hat.  
+a) Führen Sie die Pipeline aus und sehen Sie danach unter "Artifacts" nach, welche Dateien die Pipeline erzeugt hat.  
 
 b) Warum wird für job2 keine Datei angelegt?
 
