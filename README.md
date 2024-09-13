@@ -59,7 +59,7 @@ b) Warum wird für job2 keine Datei angelegt?
 
 c) Ändern Sie die Konfigurationsdatei so, dass auch für job2 die entsprechende Datei erzeugt wird.
 
-**Aufgabe 4 - Branches und Umgebungsvariablen**
+**Aufgabe 5 - Branches und Umgebungsvariablen**
 
 GitLab hat eine ganze Reihe von Umgebungsvariablen um die Entwicklung in verschiedenen Branches zu steuern. So kann man z. B. steuern, dass ein Build auf dem Master-Branch in die Produktionsumgebung deployt wird, ein Build auf dem Release-Branch in die Staging-Umgebung und alle anderen Branches nur in die Test-Umgebung.
 
