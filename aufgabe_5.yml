@@ -1,0 +1,43 @@
+stages:
+    - generate
+    - consume
+
+job1:
+    stage: generate
+    script:
+        - mkdir build
+        - echo "Hello I am job 1 executed on the $CI_COMMIT_REF_NAME branch only" > build/job1-result.txt
+    artifacts:
+        paths:
+            - build/
+    only:
+        - master
+
+job2:
+    stage: generate
+    script:
+        - mkdir build
+        - echo "Hello I am job 2 executed on the $CI_COMMIT_REF_NAME branch only" > build/job2-result.txt
+    artifacts:
+        paths:
+            - build/
+    only:
+        variables:
+            - $CI_COMMIT_REF_NAME == "release"
+
+job3:
+    stage: generate
+    script:
+        - mkdir build
+        - echo "Hello I am job3 and always executed except for the master or release branch" > build/job3-result.txt
+    artifacts:
+        paths:
+            - build/
+    except:
+        - master
+        - release
+            
+job4:
+    stage: consume
+    script:
+        - cat build/*-result.txt 
