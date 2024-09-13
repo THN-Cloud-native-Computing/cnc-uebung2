@@ -65,7 +65,7 @@ GitLab hat eine ganze Reihe von [Umgebungsvariablen](https://docs.gitlab.com/ee/
 
 Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an. Fügen Sie dem Repository den Code aus der Datei aufgabe_5.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).
 
-Legen Sie folgende Branches in ihrem Projekt an:  
+a) Legen Sie folgende Branches in ihrem Projekt an:  
 
 - feature  
 
@@ -73,11 +73,11 @@ Legen Sie folgende Branches in ihrem Projekt an:
 
 - release
 
-a) Schauen Sie sich die Konfigurationsdatei an. Welche Jobs werden auf welchem Branch ausgeführt?
+b) Schauen Sie sich die Konfigurationsdatei an. Welche Jobs werden auf welchem Branch ausgeführt?
 
-b) Führen Sie die Pipeline in den unterschiedlichen Branches aus und überprüfen Sie damit ihr Ergebnis aus Aufgabe a) 
+c) Führen Sie die Pipeline in den unterschiedlichen Branches aus und überprüfen Sie damit ihr Ergebnis aus Aufgabe b) 
 
-b) Ändern Sie die Pipeline so, dass job1 nur im feature Branch ausgeführt wird.
+d) Ändern Sie die Pipeline so, dass job1 nur im feature Branch ausgeführt wird.
 
 
 **Aufgabe 0 - Aufwärmübung mit der Kommandozeile**
