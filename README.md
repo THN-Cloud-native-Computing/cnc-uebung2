@@ -61,7 +61,7 @@ c) Ändern Sie die Konfigurationsdatei so, dass auch für job2 die entsprechende
 
 **Aufgabe 5 - Branches und Umgebungsvariablen**
 
-GitLab hat eine ganze Reihe von [Umgebungsvariablen]([http://www.gitlab.com](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)) um die Entwicklung in verschiedenen Branches zu steuern. So kann man z. B. steuern, dass ein Build auf dem Master-Branch in die Produktionsumgebung deployt wird, ein Build auf dem Release-Branch in die Staging-Umgebung und alle anderen Branches nur in die Test-Umgebung.
+GitLab hat eine ganze Reihe von [Umgebungsvariablen](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html) um die Entwicklung in verschiedenen Branches zu steuern. So kann man z. B. steuern, dass ein Build auf dem Master-Branch in die Produktionsumgebung deployt wird, ein Build auf dem Release-Branch in die Staging-Umgebung und alle anderen Branches nur in die Test-Umgebung.
 
 Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an. Fügen Sie dem Repository den Code aus der Datei aufgabe_5.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).
 
