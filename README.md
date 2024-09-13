@@ -59,6 +59,25 @@ b) Warum wird für job2 keine Datei angelegt?
 
 c) Ändern Sie die Konfigurationsdatei so, dass auch für job2 die entsprechende Datei erzeugt wird.
 
+**Aufgabe 4 - Branches und Umgebungsvariablen**
+
+GitLab hat eine ganze Reihe von Umgebungsvariablen um die Entwicklung in verschiedenen Branches zu steuern. So kann man z. B. steuern, dass ein Build auf dem Master-Branch in die Produktionsumgebung deployt wird, ein Build auf dem Release-Branch in die Staging-Umgebung und alle anderen Branches nur in die Test-Umgebung.
+
+Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an. Fügen Sie dem Repository den Code aus der Datei aufgabe_5.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).
+
+Legen Sie folgende Branches in ihrem Projekt an:  
+
+- feature  
+
+- master  
+
+- release
+
+a) Führen Sie die Pipeline in den unterschiedlichen Branches aus und sehen Sie sich das Ergebnis an.  
+
+b) Ändern Sie die Pipeline so, dass job1 nur im feature Branch ausgeführt wird.
+
+
 **Aufgabe 0 - Aufwärmübung mit der Kommandozeile**
 
 Im cloud-nativen Umfeld arbeitet man häufig mit der Kommandozeile. Deshalb machen wir eine kurze Aufwärmübung dazu. Erledigen Sie folgende Aufgaben ausschließlich über die Kommandozeile:
