@@ -73,7 +73,9 @@ Legen Sie folgende Branches in ihrem Projekt an:
 
 - release
 
-a) Führen Sie die Pipeline in den unterschiedlichen Branches aus und sehen Sie sich das Ergebnis an.  
+a) Schauen Sie sich die Konfigurationsdatei an. Welche Jobs werden auf welchem Branch ausgeführt?
+
+b) Führen Sie die Pipeline in den unterschiedlichen Branches aus und überprüfen Sie damit ihr Ergebnis aus Aufgabe a) 
 
 b) Ändern Sie die Pipeline so, dass job1 nur im feature Branch ausgeführt wird.
 
