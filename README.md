@@ -112,4 +112,4 @@ Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.
 
 a) Erklären Sie, was hier getestet wird.  
 b) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?  
-c) Testen Sie das Programm indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnissen mit ihren Einschätzungen aus Aufgabe b).  
+c) Testen Sie das Programm indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnisse mit ihren Einschätzungen aus Aufgabe b).  
