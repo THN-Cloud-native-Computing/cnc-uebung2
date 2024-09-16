@@ -110,6 +110,6 @@ Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.
 - Fügen Sie dem Repository die Datei junit-4.12.jar hinzu (Infos zu [JUnit](https://junit.org/junit5/))
 - Fügen Sie dem Repository die Datei hamcrest-core-1.3.jar hinzu (Infos zu [Hamcrest](https://hamcrest.org/))
 
-a) Erklären Sie, was hier getestet wird.
-b) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?
-c) Testen Sie das Programm indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnissen mit ihren Einschätzungen aus Aufgabe b).
+a) Erklären Sie, was hier getestet wird.  
+b) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?  
+c) Testen Sie das Programm indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnissen mit ihren Einschätzungen aus Aufgabe b).  
