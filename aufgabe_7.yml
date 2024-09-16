@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+
+variables:
+  JDK_VERSION: "17"
+
+before_script:
+  - apt-get update && apt-get install -y openjdk-${JDK_VERSION}-jdk
+
+build:
+  stage: build
+  script:
+    - javac Film.java TestFilm.java
+  artifacts:
+    paths:
+      - "*.class"
+
+test:
+  stage: test
+  script:
+    - java TestFilm

@@ -1,0 +1,17 @@
+stages:
+  - test
+
+test:
+  stage: test
+  before_script:
+    - apt-get update
+    - apt-get install -y openjdk-17-jdk
+    - apt-get install -y junit4
+  script:
+    - javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar FactorialCalculator.java FactorialCalculatorTest.java
+    - java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore FactorialCalculatorTest
+  artifacts:
+    paths:
+      - FactorialCalculator.class
+      - FactorialCalculatorTest.class
+
