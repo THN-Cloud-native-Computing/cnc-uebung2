@@ -85,11 +85,11 @@ Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.
 - Fügen Sie dem Repository den Code aus der Datei aufgabe_6.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
 - Fügen Sie dem Repository die Datei HelloWorldBug.java hinzu
 
-a) Wie werden Java-Programme kompiliert und ausgeführt?
-b) Wo finden Sie diese Schritte in der Konfigurationsdatei zu dieser Deployment-Pipeline?
-c) Führen Sie die Pipeline aus. Was passiert? Wo ist der Fehler?
-d) Korrigieren Sie den Fehler und starten Sie die Pipeline erneut. Beide Stages sollten nun erfolgreich passiert werden.
-e) In welchem Fall würde die build-Stage erfolgreich passiert werden, aber die Test-Stage abbrechen? Passen Sie den Quellcode entsprechend an.
+a) Wie werden Java-Programme kompiliert und ausgeführt?  
+b) Wo finden Sie diese Schritte in der Konfigurationsdatei zu dieser Deployment-Pipeline?  
+c) Führen Sie die Pipeline aus. Was passiert? Wo ist der Fehler?  
+d) Korrigieren Sie den Fehler und starten Sie die Pipeline erneut. Beide Stages sollten nun erfolgreich passiert werden.  
+e) In welchem Fall würde die build-Stage erfolgreich passiert werden, aber die Test-Stage abbrechen? Passen Sie den Quellcode entsprechend an.  
 
 Hinweis: Achten Sie darauf, dass die JDK-Version des GitLab-Servers mit der JDK-Version in der Konfigurationsdatei übereinstimmt.
 
