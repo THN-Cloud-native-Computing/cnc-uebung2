@@ -1,0 +1,25 @@
+stages:
+  - build
+  - test
+
+variables:
+  JDK_VERSION: "17"  # Change this to match your Java version
+
+before_script:
+  - apt-get update -qy
+  - apt-get install -y openjdk-${JDK_VERSION}-jdk-headless
+  - java -version  # Print Java version for debugging
+  - javac -version # Print Java compiler version for debugging
+
+build:
+  stage: build
+  script:
+    - javac -d . HelloWorldBug.java
+  artifacts:
+    paths:
+      - HelloWorldBug.class
+
+test:
+  stage: test
+  script:
+    - java HelloWorldBug
