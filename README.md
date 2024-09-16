@@ -107,7 +107,7 @@ b) Führen Sie die Pipeline aus und prüfen Sie, ob sie fehlerfrei durchläuft.
 Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.   
 - Fügen Sie dem Repository den Code aus der Datei aufgabe_8.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
 - Fügen Sie dem Repository die Dateien FactorialCalculator.java und FactorialCalculatorTest.java hinzu
-- Fügen Sie dem Repository die Datei junit-4.12.jar hinzu (Infos zu JUnit: [JUnit]https://junit.org/junit5/)
-- Fügen Sie dem Repository die Datei hamcrest-core-1.3.jar hinzu (Infos zu JUnit: [Hamcrest](https://hamcrest.org/))
+- Fügen Sie dem Repository die Datei junit-4.12.jar hinzu (Infos zu JUnit: [JUnit](https://junit.org/junit5/)
+- Fügen Sie dem Repository die Datei hamcrest-core-1.3.jar hinzu (Infos zu JUnit: [Hamcrest](https://hamcrest.org/)
 
 a) Testen Sie das Programm indem Sie die Pipeline ausführen.
