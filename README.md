@@ -97,7 +97,7 @@ Hinweis: Achten Sie darauf, dass die JDK-Version des GitLab-Servers mit der JDK-
 
 Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.   
 - Fügen Sie dem Repository den Code aus der Datei aufgabe_7.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
-- Fügen Sie dem Repository die Dateien Film.java und TestFilm.java hinzu
+- Fügen Sie dem Repository die Dateien Film.java und TestFilm.java hinzu.
 
 a) Welche Abhängigkeiten bestehen zwischen diesen beiden Java-Klassen?
 b) Führen Sie die Pipeline aus und prüfen Sie, ob sie fehlerfrei durchläuft.
@@ -110,4 +110,6 @@ Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.
 - Fügen Sie dem Repository die Datei junit-4.12.jar hinzu (Infos zu [JUnit](https://junit.org/junit5/))
 - Fügen Sie dem Repository die Datei hamcrest-core-1.3.jar hinzu (Infos zu [Hamcrest](https://hamcrest.org/))
 
-a) Testen Sie das Programm indem Sie die Pipeline ausführen.
+a) Erklären Sie, was hier getestet wird.
+b) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?
+c) Testen Sie das Programm indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnissen mit ihren Einschätzungen aus Aufgabe b).
