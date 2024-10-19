@@ -99,7 +99,7 @@ Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.
 - Fügen Sie dem Repository den Code aus der Datei aufgabe_7.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
 - Fügen Sie dem Repository die Dateien Film.java und TestFilm.java hinzu.
 
-a) Welche Abhängigkeiten bestehen zwischen diesen beiden Java-Klassen?
+a) Welche Abhängigkeiten bestehen zwischen diesen beiden Java-Klassen?  
 b) Führen Sie die Pipeline aus und prüfen Sie, ob sie fehlerfrei durchläuft.
 
 **Aufgabe 8 - Software-Tests in Deployment-Pipelines: Ein Beispiel mit JUnit und Hamcrest**
