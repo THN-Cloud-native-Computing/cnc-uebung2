@@ -112,7 +112,7 @@ Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.
 - Fügen Sie dem Repository die Datei hamcrest-core-1.3.jar hinzu (Infos zu [Hamcrest](https://hamcrest.org/))
 - Fügen Sie dem Repository den Code aus der Datei aufgabe_8.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben) 
 
-a) Erklären Sie, was das Programm FactorialCalculator.java macht.
-b) Erklären Sie, was hier getestet wird.
-c) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?  
-d) Testen Sie das Programm, indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnisse mit ihren Einschätzungen aus Aufgabe b).  
+a) Erklären Sie, was das Programm FactorialCalculator.java macht.  
+b) Erklären Sie, was hier getestet wird.  
+c) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?    
+d) Testen Sie das Programm, indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnisse mit ihren Einschätzungen aus Aufgabe b).    
