@@ -1,6 +1,7 @@
 # Übung 2 - CI/CD-Pipelines
 
-**Hinweise:**
+**Hinweis:** Die Theorie und praktischen Übungen zu den Aufgaben 1 bis 6 sind (in ähnlicher Weise) zu finden in Nane Kratzke, Cloud-Native
+Computing, Hanser Verlag, 2022, [Cloud-native Computing](https://cloud-native-computing.de) 
 
 In dieser Übung verwenden wir GitLab um Deployment-Pipelines zu entwickeln. Die Prinzipien lassen sich jedoch auch mit anderen CI/CD-Diensten entwickeln. GitLab kann entweder auf dem lokalen Rechner installiert werden oder in der Cloud verwendet werden, indem man auf [GitLab.com](http://www.gitlab.com) kostenlos einen Account anlegt. Das Anlegen eines Accounts für diese Übung ist natürlich freiwillig. Anmerkung: Das 30-day-trial bezieht sich nur auf die Ultimate-Variante, alle anderen Dienste können auch darüber hinaus genutzt werden.
 
